@@ -11,7 +11,7 @@
     <div class="card">
       <img src="profile_cropped.jpg" alt="Profile Picture" class="profile-pic">
       <h1>Evi Vardaka</h1>
-      <p class="bio">MA-Architect Designer </p>
+      <p class="bio">MA Architect | Designer </p>
       <!-- OLD BUTTON STYLE -->
       <!--  <div class="links">
         <a href="mailto:vardaka.ev@gmail.com">Email</a>
@@ -27,13 +27,22 @@
         <a href="https://www.linkedin.com/in/evi-vardaka-b1768323b" target="_blank">LinkedIn</a>
         <hr>
       </div>
+  <div class="spacer"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
     <div id="qrcode"></div>
     <script>
-      new QRCode(document.getElementById("qrcode"), "https://vardakaev.github.io");
+      new QRCode(document.getElementById("qrcode"), {text: "https://vardakaev.github.io",
+      margin_top: 100,
+      width: 150,   // adjust width
+      height: 150   // adjust height
+      });
     </script>
   </div>
 </body>
+<!-- Work in progress save the trees -->
+<!-- <div class="ecosystem">
+  <h6> Go Digital Save the 🌲</h6>
+</div> -->
 </html>
 

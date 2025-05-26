@@ -8,8 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 360px;
-  margin: 0 auto;
 }
 
 body {
@@ -85,6 +83,10 @@ h1 {
   border: none;
   border-top: 1px solid #000000;
   margin: 0.5rem 0;
+}
+
+.spacer {
+  height: 1rem;
 }
 
 .qrcode {
